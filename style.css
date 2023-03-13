@@ -1,0 +1,104 @@
+body{
+    background-color:hsl(30, 38%, 92%);
+    display:flex ;
+    justify-content:center;
+    align-items: center;
+    
+}
+
+
+
+.container{
+background-color: white;
+display: flex; 
+width: 600px;
+margin-top: 100px;
+border-top-right-radius: 9px;
+border-top-left-radius: 11px;
+border-bottom-right-radius: 9px;
+border-bottom-left-radius: 11px;
+
+
+
+
+}
+.number1{
+    width: 50%;
+    
+ 
+    
+    
+}
+img{
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 9px;
+    border-bottom-left-radius: 9px;
+    object-fit: cover;
+    
+}
+.number2{
+  padding: 20px;
+  
+}
+.h1{
+    
+    
+}
+.p1{
+    font-size: 14px;
+    font-family:"montserrat",serif;
+    color: hsl(228, 12%, 48%);
+    font-weight: 500;
+    
+}
+.h1{
+    color: hsl(212, 21%, 14%);
+    font-weight: 700;
+
+
+}
+.p2{
+    color:hsl(228, 12%, 48%) ;
+    font-family: "montserrat", serif;
+    font-size: 14px;
+    line-height: 20px;
+
+
+}
+.price{
+    display: flex;
+    align-items: center;
+    color:hsl(158, 36%, 37%) ;
+    gap: 20px;
+
+
+}
+.p3{
+    font-size: 14px;
+    color: hsl(228, 12%, 48%);
+
+
+} 
+button{
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+     border-radius: 10px;
+     border-color:hsl(158, 36%, 37%) ;
+     background-color:hsl(158, 36%, 37%) ;
+     color: white;
+     font-size: 13px;
+     font-family: "montserrat",serif    ;
+     font-weight: 600;
+     margin: 5px;
+     border:none ;
+     cursor: pointer;
+}
+svg{
+    
+}
+button:hover{
+    background-color:hsl(159, 37%, 16%) ;
+}
+
